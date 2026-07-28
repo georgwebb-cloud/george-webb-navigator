@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="George Webb Investigation Navigator — visual guide to current stories, books, timelines, metadata, ISR, MKULTRA, Coronavirus Origins, Laurel Canyon, Trump-Russia and UVU reporting.">
+<title>George Webb Investigation Navigator</title>
+<style>
+:root{
+  --bg:#070807;--panel:#0b0c0b;--gold:#c69b46;--gold2:#a87b2e;
+  --text:#eee8dc;--muted:#b7ad9b;--line:#5c461d;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:radial-gradient(circle at top,#13110d 0,#070807 38%,#030403 100%);
+  color:var(--text);font-family:Arial,Helvetica,sans-serif;
+}
+.shell{max-width:1580px;margin:0 auto;padding:18px}
+header{
+  border:1px solid var(--line);background:rgba(5,6,5,.94);
+  padding:22px 24px;border-radius:14px;margin-bottom:14px;
+}
+.kicker{color:var(--gold);font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:800}
+h1{margin:6px 0 5px;font-size:clamp(30px,5vw,62px);line-height:.94;letter-spacing:-.035em}
+.intro{max-width:900px;color:var(--muted);font-size:16px;line-height:1.45}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.card{
+  position:relative;display:block;overflow:hidden;border:1px solid var(--line);
+  border-radius:10px;background:var(--panel);color:white;text-decoration:none;
+  aspect-ratio: 1.72 / 1;isolation:isolate;transition:.18s ease;
+}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 12px 30px rgba(0,0,0,.5)}
+.card img{width:100%;height:100%;object-fit:cover;display:block}
+.card:after{
+  content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.86),rgba(0,0,0,.05) 58%);
+  z-index:1;pointer-events:none
+}
+.caption{position:absolute;left:18px;right:18px;bottom:14px;z-index:2;text-shadow:0 2px 8px #000}
+.title{font-size:clamp(20px,2.1vw,35px);line-height:.96;font-weight:900;text-transform:uppercase}
+.sub{color:#e0b151;margin-top:6px;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.arrow{position:absolute;right:18px;bottom:18px;z-index:3;font-size:30px}
+.toolbar{
+  display:grid;grid-template-columns:repeat(6,1fr);gap:1px;margin-top:12px;border:1px solid var(--line);
+  border-radius:10px;overflow:hidden;background:var(--line)
+}
+.tool{background:#070807;padding:16px 14px;color:var(--text);text-decoration:none;text-align:center}
+.tool b{display:block;color:var(--gold);letter-spacing:.08em;text-transform:uppercase;font-size:13px}
+.tool span{font-size:12px;color:var(--muted)}
+footer{color:#8f8778;text-align:center;padding:24px 10px 12px;font-size:12px;letter-spacing:.08em}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.toolbar{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:580px){.grid{grid-template-columns:1fr}.toolbar{grid-template-columns:repeat(2,1fr)}.shell{padding:9px}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header>
+  <div class="kicker">George Webb's Intelligence Network</div>
+  <h1>Investigation Navigator</h1>
+  <div class="intro">A visual front door to the reporting archive. Each story tile opens the most appropriate Substack entry point currently available; category tools below open permanent publication searches and archive views.</div>
+</header>
+<div class="grid">
+
+<a class="card" href="https://georgewebb.substack.com/" target="_blank" rel="noopener" aria-label="Current Stories">
+  <img src="assets/current-stories.jpg" alt="Current Stories">
+  <div class="caption">
+    <div class="title">Current Stories</div>
+    <div class="sub">George Webb Reporting</div>
+  </div>
+  <div class="arrow">→</div>
+</a>
+<a class="card" href="https://georgewebb.substack.com/p/ukraine-family-robinson-azov-kirk" target="_blank" rel="noopener" aria-label="Tyler Robinson / UVU">
+  <img src="assets/tyler-robinson-uvu.jpg" alt="Tyler Robinson / UVU">
+  <div class="caption">
+    <div class="title">Tyler Robinson / UVU</div>
+    <div class="sub">Utah / Charlie Kirk investigation</div>
+  </div>
+  <div class="arrow">→</div>
+</a>
+<a class="card" href="https://georgewebb.substack.com/p/burned-book-vignette-3-the-metadata" target="_blank" rel="noopener" aria-label="Burned Book Vignettes">
+  <img src="assets/burned-book-vignettes.jpg" alt="Burned Book Vignettes">
+  <div class="caption">
+    <div class="title">Burned Book Vignettes</div>
+    <div class="sub">Short documents. Big implications.</div>
+  </div>
+  <div class="arrow">→</div>
+</a>
+<a class="card" href="https://georgewebb.substack.com/search?q=coronavirus" target="_blank" rel="noopener" aria-label="Coronavirus Origins">
+  <img src="assets/coronavirus-origins.jpg" alt="Coronavirus Origins">
+  <div class="caption">
+    <div class="title">Coronavirus Origins</div>
+    <div class="sub">BioAgent / coronavirus archive</div>
+  </div>
+  <div class="arrow">→</div>
+</a>
+<a class="card" href="https://georgewebb.substack.com/search?q=laurel%20canyon" target="_blank" rel="noopener" aria-label="Echoes of Laurel Canyon">
+  <img src="assets/echoes-laurel-canyon.jpg" alt="Echoes of Laurel Canyon">
+  <div class="caption">
+    <div class="title">Echoes of Laurel Canyon</div>
+    <div class="sub">Music. Intelligence. Hollywood.</div>
+  </div>
+  <div class="arrow">→</div>
+</a>
+<a class="card" href="https://georgewebb.substack.com/p/burned-book-vignette-3-the-metadata" target="_blank" rel="noopener" aria-label="Metadata">
+  <img src="assets/metadata.jpg" alt="Metadata">
+  <div class="caption">
+    <div class="title">Metadata</div>
+    <div class="sub">The data behind the story</div>
+  </div>
+  <div class="arrow">→</div>
+</a>
+<a class="card" href="https://georgewebb.substack.com/p/on-the-trail-of-trump-russia-2017" target="_blank" rel="noopener" aria-label="2017: The Trump Russia Narrative">
+  <img src="assets/trump-russia.jpg" alt="2017: The Trump Russia Narrative">
+  <div class="caption">
+    <div class="title">2017: The Trump Russia Narrative</div>
+    <div class="sub">How it started. How it was sold.</div>
+  </div>
+  <div class="arrow">→</div>
+</a>
+<a class="card" href="https://georgewebb.substack.com/p/rocking-chairs-vs-palantir-we-win" target="_blank" rel="noopener" aria-label="ISR: The Watchers">
+  <img src="assets/isr-watchers.jpg" alt="ISR: The Watchers">
+  <div class="caption">
+    <div class="title">ISR: The Watchers</div>
+    <div class="sub">Surveillance. Control. Power.</div>
+  </div>
+  <div class="arrow">→</div>
+</a>
+<a class="card" href="https://georgewebb.substack.com/p/ian-carroll-explores-if-mk-ultra" target="_blank" rel="noopener" aria-label="MKULTRA">
+  <img src="assets/mkultra.jpg" alt="MKULTRA">
+  <div class="caption">
+    <div class="title">MKULTRA</div>
+    <div class="sub">Mind control and the archive</div>
+  </div>
+  <div class="arrow">→</div>
+</a>
+</div>
+<nav class="toolbar">
+  <a class="tool" href="https://georgewebb.substack.com/search" target="_blank"><b>Search</b><span>All stories</span></a>
+  <a class="tool" href="https://georgewebb.substack.com/archive" target="_blank"><b>Archive</b><span>Chronological</span></a>
+  <a class="tool" href="https://georgewebb.substack.com/search?q=timeline" target="_blank"><b>Timelines</b><span>Historical maps</span></a>
+  <a class="tool" href="https://georgewebb.substack.com/search?q=document" target="_blank"><b>Documents</b><span>Primary sources</span></a>
+  <a class="tool" href="https://georgewebb.substack.com/search?q=video" target="_blank"><b>Videos</b><span>Reports & interviews</span></a>
+  <a class="tool" href="https://georgewebb.substack.com/search?q=book" target="_blank"><b>Books</b><span>Long-form work</span></a>
+</nav>
+<footer>GEORGE WEBB INVESTIGATION NAVIGATOR · STATIC PUBLIC-SITE BUILD</footer>
+</div>
+</body>
+</html>

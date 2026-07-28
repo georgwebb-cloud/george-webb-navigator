@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Current Stories",
+    "subtitle": "George Webb Reporting",
+    "image": "assets/current-stories.jpg",
+    "url": "https://georgewebb.substack.com/",
+    "note": "Publication home \u2014 newest reporting"
+  },
+  {
+    "title": "Tyler Robinson / UVU",
+    "subtitle": "Utah / Charlie Kirk investigation",
+    "image": "assets/tyler-robinson-uvu.jpg",
+    "url": "https://georgewebb.substack.com/p/ukraine-family-robinson-azov-kirk",
+    "note": "Series entry point"
+  },
+  {
+    "title": "Burned Book Vignettes",
+    "subtitle": "Short documents. Big implications.",
+    "image": "assets/burned-book-vignettes.jpg",
+    "url": "https://georgewebb.substack.com/p/burned-book-vignette-3-the-metadata",
+    "note": "Verified Burned Book series post"
+  },
+  {
+    "title": "Coronavirus Origins",
+    "subtitle": "BioAgent / coronavirus archive",
+    "image": "assets/coronavirus-origins.jpg",
+    "url": "https://georgewebb.substack.com/search?q=coronavirus",
+    "note": "Publication search landing page"
+  },
+  {
+    "title": "Echoes of Laurel Canyon",
+    "subtitle": "Music. Intelligence. Hollywood.",
+    "image": "assets/echoes-laurel-canyon.jpg",
+    "url": "https://georgewebb.substack.com/search?q=laurel%20canyon",
+    "note": "Publication search landing page"
+  },
+  {
+    "title": "Metadata",
+    "subtitle": "The data behind the story",
+    "image": "assets/metadata.jpg",
+    "url": "https://georgewebb.substack.com/p/burned-book-vignette-3-the-metadata",
+    "note": "The Metadata Method"
+  },
+  {
+    "title": "2017: The Trump Russia Narrative",
+    "subtitle": "How it started. How it was sold.",
+    "image": "assets/trump-russia.jpg",
+    "url": "https://georgewebb.substack.com/p/on-the-trail-of-trump-russia-2017",
+    "note": "Verified 2017 retrospective"
+  },
+  {
+    "title": "ISR: The Watchers",
+    "subtitle": "Surveillance. Control. Power.",
+    "image": "assets/isr-watchers.jpg",
+    "url": "https://georgewebb.substack.com/p/rocking-chairs-vs-palantir-we-win",
+    "note": "Verified surveillance / Palantir entry"
+  },
+  {
+    "title": "MKULTRA",
+    "subtitle": "Mind control and the archive",
+    "image": "assets/mkultra.jpg",
+    "url": "https://georgewebb.substack.com/p/ian-carroll-explores-if-mk-ultra",
+    "note": "Verified MKULTRA / Laurel Canyon entry"
+  }
+]
